@@ -1,4 +1,4 @@
-# m-clipboard-copy
+# MClipboard Copy
 A simple Angular Component to copy texts/values to clipboard.
 
 ## Modo de usar / How to use
