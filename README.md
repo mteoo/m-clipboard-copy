@@ -9,7 +9,7 @@ A simple Angular Component to copy texts/values to clipboard.
 require('.../m-clipboard-copy')
 ```
 
-##### No html / In html
+##### HTML
 
 ```html
 <div class="col-md-12">
@@ -22,11 +22,10 @@ require('.../m-clipboard-copy')
 
 #### m-clipboard-copy
 
-O atributo cw-clipboard pode receber um bind {{}} do Angular / m-clipboard-copy may receive a Angular {{}}  or a text.
+cw-clipboard pode receber um bind {{}} do Angular ou um texto / m-clipboard-copy may receive a Angular {{}}  or a text.
 ```html
 <a href="" class="btn" m-clipboard-copy="{{vm.texto}}">Copy text</a>
 ```
-Ou um texto simples
 ```html
-<a href="" class="btn" m-clipboard-copy="Texto copiado...">Copy text</a>
+<a href="" class="btn" m-clipboard-copy="Text to copy...">Copy text</a>
 ```
